@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+  <title>首页</title>
+  <!--引进bootstrap文件-->
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+  <!--引入字体图标文件-->
+  <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./vendor/ztree/css/zTreeStyle/zTreeStyle.css">
+  <!--引入公共的css文件-->
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body class="container-fluid p-0 m-0">
+  <!--头部-->
+  <nav class="d-flex flex-row justify-content-between bg-color-1 border-bottom border-size-1">
+    <section class="pl-2 fon-size-24 text-white font-weight-bold">博威 iTV 多信息自动切换平台</section>
+    <section class="d-flex font-size-12 align-items-center">
+      <section class="color-2 border border-dark rounded p-2 mr-3" style="height:36px;line-height:18px;">
+        <i class="fa fa-volume-up" aria-hidden="true"></i> 当前时间是
+        <span id="dateTime" class="ml-2"></span>
+      </section>
+      <section class="mr-3">
+        <img src="./images/avatar.png" style="width:30px;" alt="头像" class="rounded-circle border border-dark mr-2 mb-1">
+        <span class="text-white">Admin</span>
+      </section>
+      <section class="color-2 cursor-pointer mr-3">注销</section>
+    </section>
+  </nav>
+
+  <section class="d-flex container-fluid main-container">
+    <!--左边菜单栏部分-->
+    <article class="main-menu">
+      <ul class="list-group color-3">
+        <li class="list-group-item cursor-pointer main-menu--list-item active">
+          <a href="#">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            实时监测
+          </a>
+        </li>
+        <li class="list-group-item cursor-pointer main-menu--list-item">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          统计分析
+        </li>
+        <li class="list-group-item cursor-pointer main-menu--list-item">
+          <i class="fa fa-sliders" aria-hidden="true"></i>
+          数据查询
+        </li>
+        <li class="list-group-item cursor-pointer main-menu--list-item">
+          <i class="fa fa-bar-chart" aria-hidden="true"></i>
+          业务配置
+        </li>
+        <li class="list-group-item cursor-pointer main-menu--list-item">
+          <i class="fa fa-cogs" aria-hidden="true"></i>
+          系统配置
+        </li>
+      </ul>
+    </article>
+    <!--主体部分-->
+    <section class="container main-content">
+      <div class="row main-content-1">
+        <div class="col-md-12">
+          <div class="panel" role="alert">
+            节目源查看
+          </div>
+        </div>
+        <div class="col-md-3 show-list">
+          <div class="panel" role="alert" style="height:100%">
+            <div class="input-group input-group-sm mb-3">
+              <input type="text" class="form-control " placeholder="请输入查询关键字" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-sm" type="button">搜索</button>
+              </div>
+            </div>
+            <div id="treeView" class="ztree"></div>
+          </div>
+        </div>
+        <div class="col-md-9 pl-0">
+          <div class="panel" role="alert">
+            ghhh
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!--底部版权-->
+  <footer class="text-center border-top border-size-1 boder-dark text-light color-4 fon-size-12 bg-color-1">
+    北京威信泰克技术有限公司&nbsp;&nbsp;1993-2016&nbsp;&nbsp;版权所有
+  </footer>
+
+  <!--引入jquery和bootstrap相关-->
+  <script src="./vendor/jquery/jquery.min.js" crossorigin="anonymous"></script>
+  <!-- <script src="./vendor/popper/popper.min.js" crossorigin="anonymous"></script> -->
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+  <!--引入时间处理插件-->
+  <script src="./js/moment.min.js"></script>
+
+  <!-- ztree -->
+  <script src="./vendor/ztree/js/jquery.ztree.core.js" crossorigin="anonymous"></script>
+
+
+
+  <!--引入index页面的js-->
+  <script src="./js/index.js"></script>
+  <script src="./js/treeview.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,341 @@
+html,
+body {
+    height: 100%;
+}
+
+
+/* 整体配色定义 */
+
+.color-1 {
+    color: #fff;
+}
+
+.color-2 {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.color-3 {
+    color: #000;
+}
+
+.color-4 {
+    color: #000000;
+}
+
+.bg-color-1 {
+    background-color: #24292e;
+}
+
+.bg-color-2 {
+    background-color: #404448;
+}
+
+.bg-color-3 {
+    background-color: #fff;
+}
+
+.bg-color-4 {
+    background-color: #24292e;
+}
+
+.bd-color-1 {
+    border-color: #ccc !important;
+}
+
+
+/*字体大小36像素*/
+
+.fon-size-24 {
+    font-size: 24px;
+}
+
+.fon-size-18 {
+    font-size: 18px;
+}
+
+.fon-size-16 {
+    font-size: 16px;
+}
+
+.fon-size-14 {
+    font-size: 14px;
+}
+
+.fon-size-12 {
+    font-size: 12px;
+}
+
+
+/* 边距 */
+
+.pd-0 {
+    padding: 0;
+}
+
+.pd-sm {
+    padding: 6px 10px;
+}
+
+.mg-0 {
+    margin: 0;
+}
+
+
+/* 大小 */
+
+.full-height {
+    height: 100%;
+}
+
+
+/*字体颜色*/
+
+.color-link {
+    color: #856404
+}
+
+
+/* 待备注 */
+
+.panel {
+    border-radius: 0;
+    min-height: 44px;
+    background: #ffffff;
+    margin-top: 10px;
+    padding: 10px;
+    color: #000;
+    overflow: hidden;
+}
+
+
+/*边框*/
+
+.bd-b {
+    border-bottom: 1px solid;
+}
+
+.bd-t {
+    border-top: 1px solid;
+}
+
+.bd-r {
+    border-right: 1px solid;
+}
+
+.bd-l {
+    border-left: 1px solid;
+}
+
+.bd-rd-0 {
+    border-radius: 0;
+}
+
+
+/* 滑动条 */
+
+.of-x {
+    overflow-x: auto;
+}
+
+.of-y {
+    overflow-y: auto;
+}
+
+.of-no {
+    overflow: hidden;
+}
+
+
+/*鼠标手型*/
+
+.cursor-p {
+    user-select: none;
+    cursor: pointer
+}
+
+
+/* 清除列表原有样式 */
+
+.li-clear {
+    list-style: none;
+}
+
+.nobreak {
+    white-space: nowrap;
+}
+
+
+/* 定制组件 */
+
+
+/* 表格 */
+
+.table-nobreak th,
+td {
+    white-space: nowrap;
+}
+
+.thead-dark th {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+}
+
+.thead-center th {
+    text-align: center;
+}
+
+
+/* 卡片 */
+
+.newcard {
+    width: 100%;
+}
+
+.newcard-title {
+    margin: 5px 5px 0 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #dbdbdb;
+    background-color: #424242;
+}
+
+.newcard-body {
+    padding: 5px;
+    border: 1px solid #424242;
+    margin: 0 5px 5px 5px;
+}
+
+
+/* ztree 图标 */
+
+.ztree li span.button.icon_green_ico_docu {
+    margin-right: 2px;
+    background: url(../images/green.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle
+}
+
+.ztree li span.button.icon_red_ico_docu {
+    margin-right: 2px;
+    background: url(../images/red.png) no-repeat scroll 0 0 transparent;
+    vertical-align: top;
+    *vertical-align: middle
+}
+
+.ztree li span.button.pIcon_none_ico_open {
+    display: none;
+}
+
+.ztree li span.button.pIcon_none_ico_close {
+    display: none;
+}
+
+
+/*主体布局样式*/
+
+
+/* 导航栏 */
+
+nav {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+/* 页脚 */
+
+footer {
+    border: 0;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+/* 主容器 */
+
+.main-container {
+    height: calc(100% - 70px);
+    padding: 0;
+}
+
+
+/* 主菜单 */
+
+.main-menu {
+    max-width: 150px;
+}
+
+.main-menu--list-item {}
+
+.main-menu--list-item:hover {
+    color: #000;
+    background-color: #d8d8d8;
+    border-radius: 0;
+}
+
+.main-menu--list-item.active {
+    color: #000;
+    background-color: #d8d8d8;
+    border-radius: 0;
+    border: 0;
+}
+
+.main-menu--list-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* 内容页面 */
+
+.main-content {
+    background: #b3b3b3;
+    margin: 0;
+}
+
+
+/* main-content-1 */
+
+.main-content-1 {
+    height: 100%;
+}
+
+.main-content-1 .ztree {
+    overflow-x: auto;
+}
+
+.main-content-1 .show-list {
+    overflow: hidden;
+    height: calc(100% - 70px);
+}
+
+
+/* main-content-2 */
+
+.main-content-2 {
+    height: 100%;
+    overflow: hidden;
+}
+
+.business-info {
+    padding-left: 8px;
+}
+
+.business-info li {
+    margin-top: 2px;
+    list-style: none;
+}
+
+#treeView3 a.curSelectedNode {
+    background-color: inherit;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
