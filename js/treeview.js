@@ -166,25 +166,13 @@ $(function () {
     }, zNodes3);
 
     var zNodes4 = [{
-        name: "北京",
+        name: "全部",
         open: true,
         children: [{
-            name: "昌平区",
+            name: "四川电信",
             open: true,
             children: [{
-                name: "昌平"
-            }]
-        }, {
-            name: "朝阳区",
-            open: true,
-            children: [{
-                name: "朝阳"
-            }]
-        }, {
-            name: "海淀区",
-            open: true,
-            children: [{
-                name: "海淀"
+                name: "电信"
             }]
         }]
     }];
