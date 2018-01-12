@@ -68,8 +68,15 @@ $(function () {
             }]
         }]
     }];
-    zTreeObj = $.fn.zTree.init($("#treeView"), setting, zNodes);
-    
+    zTreeObj = $.fn.zTree.init($("#treeView"), {
+        view: {
+            showIcon: false,
+            fontCss: {
+                "color": "#fff"
+            }
+        }
+    }, zNodes);
+
     var zNodes2 = [{
         name: "北京",
         open: true,
@@ -149,7 +156,7 @@ $(function () {
             iconSkin: "icon_green"
         }]
     }];
-    
+
     var zTreeObj3 = $.fn.zTree.init($("#treeView3"), {
         view: {
             fontCss: {

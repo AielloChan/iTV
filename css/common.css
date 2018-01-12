@@ -38,6 +38,10 @@ body {
     background-color: lightblue;
 }
 
+.bg-color-5 {
+    background-color: #eee;
+}
+
 .bd-color-1 {
     border-color: #ccc !important;
 }
