@@ -152,6 +152,9 @@ body {
 .of-no {
     overflow: hidden;
 }
+.of-no-i {
+    overflow: hidden !important;
+}
 
 
 /*鼠标手型*/
