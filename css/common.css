@@ -130,6 +130,10 @@ body {
     border-radius: 0 !important;
 }
 
+.bd-0 {
+    border: none;
+}
+
 
 /* 滑动条 */
 
