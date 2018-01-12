@@ -37,25 +37,25 @@
     <article class="col-lg-2 col-md-2 pd-0 main-menu">
       <div class="full-height bd-rd-0 bd-r bd-color-1 of-no of-y">
         <ul class="list-group color-3 text-center">
-          <li class="list-group-item cursor-p main-menu--list-item pd-sm active">
+          <li class="list-group-item cursor-p main-menu--list-item active">
             <a href="#">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
               实时监测
             </a>
           </li>
-          <li class="list-group-item cursor-p main-menu--list-item pd-sm bd-rd-0 bd-b">
+          <li class="list-group-item cursor-p main-menu--list-item">
             <i class="fa fa-search" aria-hidden="true"></i>
             统计分析
           </li>
-          <li class="list-group-item cursor-p main-menu--list-item pd-sm">
+          <li class="list-group-item cursor-p main-menu--list-item">
             <i class="fa fa-sliders" aria-hidden="true"></i>
             数据查询
           </li>
-          <li class="list-group-item cursor-p main-menu--list-item pd-sm">
+          <li class="list-group-item cursor-p main-menu--list-item">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
             业务配置
           </li>
-          <li class="list-group-item cursor-p main-menu--list-item pd-sm">
+          <li class="list-group-item cursor-p main-menu--list-item">
             <i class="fa fa-cogs" aria-hidden="true"></i>
             系统配置
           </li>
@@ -69,30 +69,9 @@
         <!-- 第一部分 -->
         <div class="col-lg-2 col-md-4 col-sm-4 full-height pd-sm bg-color-3 bd-r bd-color-1">
           <div class="card text-black bg-light mb-3" style="max-width: 18rem;">
-            <div class="card-header pd-sm">区域简况</div>
+            <div class="card-header">区域简况</div>
             <div class="card-body pd-0">
               <div id="treeView2" class="ztree"></div>
-            </div>
-          </div>
-        </div>
-        <!-- 第二部分 -->
-        <div class="col-lg-3 col-md-4 col-sm-4 full-height pd-sm bg-color-3 of-y bd-r bd-color-1">
-          <div class="card text-white bg-dark mb-2" style="max-width: 18rem;">
-            <div class="card-header pd-sm">业务总体情况</div>
-            <div class="card-body pd-0">
-              <ul class="business-info">
-                <li class="fon-size-14">切换频道总数：7</li>
-                <li class="fon-size-14">当天切换次数：3</li>
-                <li class="fon-size-14">当天切换频道数：1</li>
-                <li class="fon-size-14">监测信源总数：67</li>
-                <li class="fon-size-14">当前故障信源数：27</li>
-              </ul>
-            </div>
-          </div>
-          <div class="card text-white bg-dark mb-2" style="max-width: 18rem;">
-            <div class="card-header pd-sm">设备运行情况</div>
-            <div class="card-body pd-0">
-              <div id="treeView3" class="ztree"></div>
             </div>
           </div>
         </div>
@@ -284,6 +263,29 @@
           </div>
 
         </div>
+        
+        <!-- 第二部分 -->
+        <div class="col-lg-3 col-md-4 col-sm-4 full-height pd-sm bg-color-3 of-y bd-r bd-color-1">
+          <div class="card text-white bg-dark mb-2" style="max-width: 18rem;">
+            <div class="card-header">业务总体情况</div>
+            <div class="card-body">
+              <ul class="business-info">
+                <li class="fon-size-14">切换频道总数：7</li>
+                <li class="fon-size-14">当天切换次数：3</li>
+                <li class="fon-size-14">当天切换频道数：1</li>
+                <li class="fon-size-14">监测信源总数：67</li>
+                <li class="fon-size-14">当前故障信源数：27</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card text-white bg-dark mb-2" style="max-width: 18rem;">
+            <div class="card-header">设备运行情况</div>
+            <div class="card-body">
+              <div id="treeView3" class="ztree"></div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   </section>
