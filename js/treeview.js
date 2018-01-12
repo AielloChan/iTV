@@ -164,4 +164,36 @@ $(function () {
             }
         }
     }, zNodes3);
+
+    var zNodes4 = [{
+        name: "北京",
+        open: true,
+        children: [{
+            name: "昌平区",
+            open: true,
+            children: [{
+                name: "昌平"
+            }]
+        }, {
+            name: "朝阳区",
+            open: true,
+            children: [{
+                name: "朝阳"
+            }]
+        }, {
+            name: "海淀区",
+            open: true,
+            children: [{
+                name: "海淀"
+            }]
+        }]
+    }];
+    var zTreeObj4 = $.fn.zTree.init($("#treeView4"), {
+        view: {
+            showIcon: false,
+            fontCss: {
+                "font-weight": "bold;"
+            }
+        }
+    }, zNodes4);
 })
