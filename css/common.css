@@ -160,8 +160,13 @@ body {
     list-style: none;
 }
 
-.clear-a {
+.clear-a,
+.clear-a:active,
+.clear-a:hover,
+.clear-a:focus,
+.clear-a:visited {
     text-decoration: none;
+    outline: none;
     color: inherit;
 }
 
@@ -275,7 +280,7 @@ footer {
 /* 主菜单 */
 
 .main-menu {
-    /* max-width: 150px; */
+    max-width: 200px;
 }
 
 .main-menu--list-item {
