@@ -127,7 +127,7 @@ body {
 }
 
 .bd-rd-0 {
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 
@@ -154,10 +154,15 @@ body {
 }
 
 
-/* 清除列表原有样式 */
+/* 清除原有样式 */
 
-.li-clear {
+.clear-li {
     list-style: none;
+}
+
+.clear-a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nobreak {
@@ -273,24 +278,20 @@ footer {
     /* max-width: 150px; */
 }
 
-.main-menu--list-item {}
+.main-menu--list-item {
+    color: #fff;
+    background-color: #353a40;
+}
 
 .main-menu--list-item:hover {
-    color: #000;
-    background-color: #d8d8d8;
+    background-color: #24292e;
     border-radius: 0;
 }
 
 .main-menu--list-item.active {
-    color: #000;
-    background-color: #d8d8d8;
+    color: #fff;
+    background-color: #24292e;
     border-radius: 0;
-    border: 0;
-}
-
-.main-menu--list-item a {
-    text-decoration: none;
-    color: #000;
 }
 
 
