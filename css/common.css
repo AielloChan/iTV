@@ -35,7 +35,7 @@ body {
 }
 
 .bg-color-4 {
-    background-color: #24292e;
+    background-color: lightblue;
 }
 
 .bd-color-1 {
@@ -329,11 +329,6 @@ footer {
 
 
 /* main-content-2 */
-
-.main-content-2 {
-    height: 100%;
-    overflow: hidden;
-}
 
 .business-info {
     padding-left: 8px;
